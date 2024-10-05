@@ -1,7 +1,9 @@
+import logo from '../../../assets/logos/logo.svg';
+
 const Brand = ({ ...props }) => (
   <div className="flex items-center gap-4">
     <img
-      src="/logo.svg"
+      src={logo}
       alt="Sanset Technologies"
       {...props}
       width={24}
@@ -11,3 +13,4 @@ const Brand = ({ ...props }) => (
   </div>
 );
 export default Brand;
+
