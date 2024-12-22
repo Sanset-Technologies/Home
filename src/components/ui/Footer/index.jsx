@@ -1,9 +1,9 @@
-import Newsletter from "../Newsletter";
-import Brand from "../Brand";
+import Newsletter from '../Newsletter';
+import Brand from '../Brand';
 
 const navigation = [
-  { name: "Features", href: "#features" },
-  { name: "FAQs", href: "#faqs" },
+  { name: 'Features', href: '#features' },
+  { name: 'FAQs', href: '#faqs' },
 ];
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
               to enhance their digital solutions.
             </p>
             <div className="flex items-center gap-x-6 pt-2 text-gray-400">
-              <a href="/" target="_blank" aria-label="Social media">
+              {/* <a href="/" target="_blank" aria-label="Social media">
                 <svg
                   className="h-6 w-6 duration-150 hover:text-gray-500"
                   fill="none"
@@ -81,7 +81,39 @@ const Footer = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              </a>
+              </a> */}
+              <div className="flex gap-1">
+                <a
+                  href="mailto:sansettechnologies@gmail.com"
+                  aria-label="Email"
+                  className="hover:text-blue-500"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="hover:fill-blue-500"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"
+                    />
+                  </svg>
+                </a>
+                <div className="text-gray-400">
+                  Mail us on: &nbsp;
+                  <span className="text-gray-900">
+                    <a
+                      href="mailto:sansettechnologies@gmail.com"
+                      aria-label="Email"
+                      className="hover:text-blue-500"
+                    >
+                      sansettechnologies@gmail.com
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <Newsletter />
