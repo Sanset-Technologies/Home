@@ -84,7 +84,7 @@ const Footer = () => {
               </a> */}
               <div className="flex gap-1">
                 <a
-                  href="mailto:sansettechnologies@gmail.com"
+                  href="mailto:info@sanset.in"
                   aria-label="Email"
                   className="hover:text-blue-500"
                 >
@@ -105,11 +105,11 @@ const Footer = () => {
                   Mail us on: &nbsp;
                   <span className="text-gray-900">
                     <a
-                      href="mailto:sansettechnologies@gmail.com"
+                      href="mailto:info@sanset.in"
                       aria-label="Email"
                       className="hover:text-blue-500"
                     >
-                      sansettechnologies@gmail.com
+                      info@sanset.in
                     </a>
                   </span>
                 </div>
